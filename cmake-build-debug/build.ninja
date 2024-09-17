@@ -288,6 +288,37 @@ build problem8: CXX_EXECUTABLE_LINKER__problem8_Debug CMakeFiles/problem8.dir/pr
   TARGET_FILE = problem8
   TARGET_PDB = problem8.dbg
 
+# =============================================================================
+# Object build statements for EXECUTABLE target problem9
+
+
+#############################################
+# Order-only phony target for problem9
+
+build cmake_object_order_depends_target_problem9: phony || .
+
+build CMakeFiles/problem9.dir/problem9.cpp.o: CXX_COMPILER__problem9_unscanned_Debug /Users/t.joldasbayev/CLionProjects/lab-assignment3-class/problem9.cpp || cmake_object_order_depends_target_problem9
+  DEP_FILE = CMakeFiles/problem9.dir/problem9.cpp.o.d
+  FLAGS = -g -std=gnu++20 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk -mmacosx-version-min=12.2 -fcolor-diagnostics
+  OBJECT_DIR = CMakeFiles/problem9.dir
+  OBJECT_FILE_DIR = CMakeFiles/problem9.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target problem9
+
+
+#############################################
+# Link the executable problem9
+
+build problem9: CXX_EXECUTABLE_LINKER__problem9_Debug CMakeFiles/problem9.dir/problem9.cpp.o
+  FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk -mmacosx-version-min=12.2
+  OBJECT_DIR = CMakeFiles/problem9.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = problem9
+  TARGET_PDB = problem9.dbg
+
 
 #############################################
 # Utility command for edit_cache
@@ -322,7 +353,7 @@ build rebuild_cache: phony CMakeFiles/rebuild_cache.util
 #############################################
 # Folder: /Users/t.joldasbayev/CLionProjects/lab-assignment3-class/cmake-build-debug
 
-build all: phony lab_assignment3_class problem2 problem3 problem4 problem5 problem6 problem7 problem8
+build all: phony lab_assignment3_class problem2 problem3 problem4 problem5 problem6 problem7 problem8 problem9
 
 # =============================================================================
 # Built-in targets

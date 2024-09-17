@@ -6,5 +6,6 @@
 /Users/t.joldasbayev/CLionProjects/lab-assignment3-class/cmake-build-debug/CMakeFiles/problem6.dir
 /Users/t.joldasbayev/CLionProjects/lab-assignment3-class/cmake-build-debug/CMakeFiles/problem7.dir
 /Users/t.joldasbayev/CLionProjects/lab-assignment3-class/cmake-build-debug/CMakeFiles/problem8.dir
+/Users/t.joldasbayev/CLionProjects/lab-assignment3-class/cmake-build-debug/CMakeFiles/problem9.dir
 /Users/t.joldasbayev/CLionProjects/lab-assignment3-class/cmake-build-debug/CMakeFiles/edit_cache.dir
 /Users/t.joldasbayev/CLionProjects/lab-assignment3-class/cmake-build-debug/CMakeFiles/rebuild_cache.dir
