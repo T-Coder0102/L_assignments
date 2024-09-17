@@ -23,7 +23,8 @@
 						5,
 						6,
 						7,
-						8
+						8,
+						9
 					]
 				}
 			],
@@ -46,7 +47,8 @@
 						5,
 						6,
 						7,
-						8
+						8,
+						9
 					]
 				}
 			],
@@ -57,6 +59,13 @@
 					"id" : "lab_assignment3_class::@6890427a1f51a3e7e1df",
 					"jsonFile" : "target-lab_assignment3_class-Debug-11172c6111b4c082a78d.json",
 					"name" : "lab_assignment3_class",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "problem10::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-problem10-Debug-63b105b8264136339a16.json",
+					"name" : "problem10",
 					"projectIndex" : 0
 				},
 				{
