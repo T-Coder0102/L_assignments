@@ -1,0 +1,7 @@
+D:/IT files/ClionProjects/L_assignments/lab-assignment-3/cmake-build-debug/CMakeFiles/lab_assignment_3.dir
+D:/IT files/ClionProjects/L_assignments/lab-assignment-3/cmake-build-debug/CMakeFiles/problem2.dir
+D:/IT files/ClionProjects/L_assignments/lab-assignment-3/cmake-build-debug/CMakeFiles/problem3.dir
+D:/IT files/ClionProjects/L_assignments/lab-assignment-3/cmake-build-debug/CMakeFiles/problem4.dir
+D:/IT files/ClionProjects/L_assignments/lab-assignment-3/cmake-build-debug/CMakeFiles/problem5.dir
+D:/IT files/ClionProjects/L_assignments/lab-assignment-3/cmake-build-debug/CMakeFiles/edit_cache.dir
+D:/IT files/ClionProjects/L_assignments/lab-assignment-3/cmake-build-debug/CMakeFiles/rebuild_cache.dir
