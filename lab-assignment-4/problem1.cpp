@@ -9,14 +9,18 @@ int main()
     temp=a;
     if(a/10<1)
     {
+        cout<<endl;
         for(int i=1;i<=a;i++)
         {
             for(int j=1;j<=temp;j++)
             {
                 cout<<j;
-                if(temp==j)cout<<" ";
+                // if(temp==j)cout<<" ";
 
-            }for(int k=temp;k>0;k--)
+            }
+            for(int l=2;l<=i;l++)cout<<" ";
+            for(int l=2;l<=i;l++)cout<<" ";
+            for(int k=temp;k>0;k--)
             {
                 cout<<k;
 

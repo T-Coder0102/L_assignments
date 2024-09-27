@@ -2,11 +2,17 @@
 using namespace std;
 int main()
 {
-    int N,A,B,temp=0,sum=0;
-    cout<<"PLease enter three numbers: ";
-    cin>>N>>A>>B;
-    for(int i=1;i<=N;i++)
+    int t,N,temp=0;
+    cout<<"Enter number of cases: "<<endl;
+    cin>>t;
+    for(int i=0;i<t;i++)
     {
-
+        cin>>N;
+        while(N>0)
+        {
+            temp=N%10;
+            N=N/10;
+            cout<<temp<<" ";
+        };
     }
 }
