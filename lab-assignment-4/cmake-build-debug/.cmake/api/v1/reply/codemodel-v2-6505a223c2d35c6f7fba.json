@@ -15,7 +15,8 @@
 					"source" : ".",
 					"targetIndexes" : 
 					[
-						0
+						0,
+						1
 					]
 				}
 			],
@@ -30,7 +31,8 @@
 					"name" : "lab_assignment_4",
 					"targetIndexes" : 
 					[
-						0
+						0,
+						1
 					]
 				}
 			],
@@ -41,6 +43,13 @@
 					"id" : "lab_assignment_4::@6890427a1f51a3e7e1df",
 					"jsonFile" : "target-lab_assignment_4-Debug-4a6bf80454515772f680.json",
 					"name" : "lab_assignment_4",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "problem2::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-problem2-Debug-030187b8da22464d8d40.json",
+					"name" : "problem2",
 					"projectIndex" : 0
 				}
 			]

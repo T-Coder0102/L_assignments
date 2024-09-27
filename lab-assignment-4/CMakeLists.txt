@@ -4,3 +4,4 @@ project(lab_assignment_4)
 set(CMAKE_CXX_STANDARD 20)
 
 add_executable(lab_assignment_4 problem1.cpp)
+add_executable(problem2 problem2.cpp)

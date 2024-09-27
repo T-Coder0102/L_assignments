@@ -73,6 +73,39 @@ build lab_assignment_4.exe: CXX_EXECUTABLE_LINKER__lab_assignment_4_Debug CMakeF
   TARGET_IMPLIB = liblab_assignment_4.dll.a
   TARGET_PDB = lab_assignment_4.exe.dbg
 
+# =============================================================================
+# Object build statements for EXECUTABLE target problem2
+
+
+#############################################
+# Order-only phony target for problem2
+
+build cmake_object_order_depends_target_problem2: phony || .
+
+build CMakeFiles/problem2.dir/problem2.cpp.obj: CXX_COMPILER__problem2_unscanned_Debug D$:/IT$ files/L_assignments/lab-assignment-4/problem2.cpp || cmake_object_order_depends_target_problem2
+  DEP_FILE = CMakeFiles\problem2.dir\problem2.cpp.obj.d
+  FLAGS = -g -std=gnu++20 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\problem2.dir
+  OBJECT_FILE_DIR = CMakeFiles\problem2.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target problem2
+
+
+#############################################
+# Link the executable problem2.exe
+
+build problem2.exe: CXX_EXECUTABLE_LINKER__problem2_Debug CMakeFiles/problem2.dir/problem2.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\problem2.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = problem2.exe
+  TARGET_IMPLIB = libproblem2.dll.a
+  TARGET_PDB = problem2.exe.dbg
+
 
 #############################################
 # Utility command for edit_cache
@@ -101,6 +134,8 @@ build rebuild_cache: phony CMakeFiles/rebuild_cache.util
 
 build lab_assignment_4: phony lab_assignment_4.exe
 
+build problem2: phony problem2.exe
+
 # =============================================================================
 # Folder targets.
 
@@ -109,7 +144,7 @@ build lab_assignment_4: phony lab_assignment_4.exe
 #############################################
 # Folder: D:/IT files/L_assignments/lab-assignment-4/cmake-build-debug
 
-build all: phony lab_assignment_4.exe
+build all: phony lab_assignment_4.exe problem2.exe
 
 # =============================================================================
 # Built-in targets
