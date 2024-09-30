@@ -15,7 +15,6 @@ int main()
             for(int j=1;j<=temp;j++)
             {
                 cout<<j;
-                // if(temp==j)cout<<" ";
 
             }
             for(int l=2;l<=i;l++)cout<<" ";

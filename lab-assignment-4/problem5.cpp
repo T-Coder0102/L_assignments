@@ -15,9 +15,6 @@ int main()
                 break;
             }
             a++;
-        }else
-        {
-            a++;
-        }
+        }else a++;
     }
 }
