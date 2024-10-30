@@ -337,6 +337,72 @@ build problem9.exe: CXX_EXECUTABLE_LINKER__problem9_Debug CMakeFiles/problem9.di
   TARGET_IMPLIB = libproblem9.dll.a
   TARGET_PDB = problem9.exe.dbg
 
+# =============================================================================
+# Object build statements for EXECUTABLE target quiz
+
+
+#############################################
+# Order-only phony target for quiz
+
+build cmake_object_order_depends_target_quiz: phony || .
+
+build CMakeFiles/quiz.dir/quiz.cpp.obj: CXX_COMPILER__quiz_unscanned_Debug D$:/IT$ files/L_assignments/lab-work5/quiz.cpp || cmake_object_order_depends_target_quiz
+  DEP_FILE = CMakeFiles\quiz.dir\quiz.cpp.obj.d
+  FLAGS = -g -std=gnu++20 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\quiz.dir
+  OBJECT_FILE_DIR = CMakeFiles\quiz.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target quiz
+
+
+#############################################
+# Link the executable quiz.exe
+
+build quiz.exe: CXX_EXECUTABLE_LINKER__quiz_Debug CMakeFiles/quiz.dir/quiz.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\quiz.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = quiz.exe
+  TARGET_IMPLIB = libquiz.dll.a
+  TARGET_PDB = quiz.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target midterm
+
+
+#############################################
+# Order-only phony target for midterm
+
+build cmake_object_order_depends_target_midterm: phony || .
+
+build CMakeFiles/midterm.dir/midterm.cpp.obj: CXX_COMPILER__midterm_unscanned_Debug D$:/IT$ files/L_assignments/lab-work5/midterm.cpp || cmake_object_order_depends_target_midterm
+  DEP_FILE = CMakeFiles\midterm.dir\midterm.cpp.obj.d
+  FLAGS = -g -std=gnu++20 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\midterm.dir
+  OBJECT_FILE_DIR = CMakeFiles\midterm.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target midterm
+
+
+#############################################
+# Link the executable midterm.exe
+
+build midterm.exe: CXX_EXECUTABLE_LINKER__midterm_Debug CMakeFiles/midterm.dir/midterm.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\midterm.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = midterm.exe
+  TARGET_IMPLIB = libmidterm.dll.a
+  TARGET_PDB = midterm.exe.dbg
+
 
 #############################################
 # Utility command for edit_cache
@@ -365,6 +431,8 @@ build rebuild_cache: phony CMakeFiles/rebuild_cache.util
 
 build lab_work5: phony lab_work5.exe
 
+build midterm: phony midterm.exe
+
 build problem2: phony problem2.exe
 
 build problem3: phony problem3.exe
@@ -381,6 +449,8 @@ build problem8: phony problem8.exe
 
 build problem9: phony problem9.exe
 
+build quiz: phony quiz.exe
+
 # =============================================================================
 # Folder targets.
 
@@ -389,7 +459,7 @@ build problem9: phony problem9.exe
 #############################################
 # Folder: D:/IT files/L_assignments/lab-work5/cmake-build-debug
 
-build all: phony lab_work5.exe problem2.exe problem3.exe problem4.exe problem5.exe problem6.exe problem7.exe problem8.exe problem9.exe
+build all: phony lab_work5.exe problem2.exe problem3.exe problem4.exe problem5.exe problem6.exe problem7.exe problem8.exe problem9.exe quiz.exe midterm.exe
 
 # =============================================================================
 # Built-in targets

@@ -1,3 +1,5 @@
 D:/IT files/L_assignments/extra-training/cmake-build-debug/CMakeFiles/extra_training.dir
+D:/IT files/L_assignments/extra-training/cmake-build-debug/CMakeFiles/codeforce.dir
+D:/IT files/L_assignments/extra-training/cmake-build-debug/CMakeFiles/while.dir
 D:/IT files/L_assignments/extra-training/cmake-build-debug/CMakeFiles/edit_cache.dir
 D:/IT files/L_assignments/extra-training/cmake-build-debug/CMakeFiles/rebuild_cache.dir

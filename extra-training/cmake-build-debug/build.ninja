@@ -73,6 +73,72 @@ build extra_training.exe: CXX_EXECUTABLE_LINKER__extra_training_Debug CMakeFiles
   TARGET_IMPLIB = libextra_training.dll.a
   TARGET_PDB = extra_training.exe.dbg
 
+# =============================================================================
+# Object build statements for EXECUTABLE target codeforce
+
+
+#############################################
+# Order-only phony target for codeforce
+
+build cmake_object_order_depends_target_codeforce: phony || .
+
+build CMakeFiles/codeforce.dir/codeforce.cpp.obj: CXX_COMPILER__codeforce_unscanned_Debug D$:/IT$ files/L_assignments/extra-training/codeforce.cpp || cmake_object_order_depends_target_codeforce
+  DEP_FILE = CMakeFiles\codeforce.dir\codeforce.cpp.obj.d
+  FLAGS = -g -std=gnu++20 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\codeforce.dir
+  OBJECT_FILE_DIR = CMakeFiles\codeforce.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target codeforce
+
+
+#############################################
+# Link the executable codeforce.exe
+
+build codeforce.exe: CXX_EXECUTABLE_LINKER__codeforce_Debug CMakeFiles/codeforce.dir/codeforce.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\codeforce.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = codeforce.exe
+  TARGET_IMPLIB = libcodeforce.dll.a
+  TARGET_PDB = codeforce.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target while
+
+
+#############################################
+# Order-only phony target for while
+
+build cmake_object_order_depends_target_while: phony || .
+
+build CMakeFiles/while.dir/while.cpp.obj: CXX_COMPILER__while_unscanned_Debug D$:/IT$ files/L_assignments/extra-training/while.cpp || cmake_object_order_depends_target_while
+  DEP_FILE = CMakeFiles\while.dir\while.cpp.obj.d
+  FLAGS = -g -std=gnu++20 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\while.dir
+  OBJECT_FILE_DIR = CMakeFiles\while.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target while
+
+
+#############################################
+# Link the executable while.exe
+
+build while.exe: CXX_EXECUTABLE_LINKER__while_Debug CMakeFiles/while.dir/while.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\while.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = while.exe
+  TARGET_IMPLIB = libwhile.dll.a
+  TARGET_PDB = while.exe.dbg
+
 
 #############################################
 # Utility command for edit_cache
@@ -99,7 +165,11 @@ build rebuild_cache: phony CMakeFiles/rebuild_cache.util
 # =============================================================================
 # Target aliases.
 
+build codeforce: phony codeforce.exe
+
 build extra_training: phony extra_training.exe
+
+build while: phony while.exe
 
 # =============================================================================
 # Folder targets.
@@ -109,7 +179,7 @@ build extra_training: phony extra_training.exe
 #############################################
 # Folder: D:/IT files/L_assignments/extra-training/cmake-build-debug
 
-build all: phony extra_training.exe
+build all: phony extra_training.exe codeforce.exe while.exe
 
 # =============================================================================
 # Built-in targets
