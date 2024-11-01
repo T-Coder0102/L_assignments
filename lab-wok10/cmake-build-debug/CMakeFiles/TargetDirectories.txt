@@ -9,5 +9,8 @@ D:/IT files/L_assignments/lab-wok10/cmake-build-debug/CMakeFiles/problem8.dir
 D:/IT files/L_assignments/lab-wok10/cmake-build-debug/CMakeFiles/problem9.dir
 D:/IT files/L_assignments/lab-wok10/cmake-build-debug/CMakeFiles/problem10.dir
 D:/IT files/L_assignments/lab-wok10/cmake-build-debug/CMakeFiles/problem11.dir
+D:/IT files/L_assignments/lab-wok10/cmake-build-debug/CMakeFiles/problem01.dir
+D:/IT files/L_assignments/lab-wok10/cmake-build-debug/CMakeFiles/problem02.dir
+D:/IT files/L_assignments/lab-wok10/cmake-build-debug/CMakeFiles/problem03.dir
 D:/IT files/L_assignments/lab-wok10/cmake-build-debug/CMakeFiles/edit_cache.dir
 D:/IT files/L_assignments/lab-wok10/cmake-build-debug/CMakeFiles/rebuild_cache.dir

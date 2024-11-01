@@ -1,0 +1,8 @@
+D:/IT files/L_assignments/lab-assignment-week9/cmake-build-debug/CMakeFiles/lab_assignment_week9.dir
+D:/IT files/L_assignments/lab-assignment-week9/cmake-build-debug/CMakeFiles/problem2.dir
+D:/IT files/L_assignments/lab-assignment-week9/cmake-build-debug/CMakeFiles/problem3.dir
+D:/IT files/L_assignments/lab-assignment-week9/cmake-build-debug/CMakeFiles/problem4.dir
+D:/IT files/L_assignments/lab-assignment-week9/cmake-build-debug/CMakeFiles/problem5.dir
+D:/IT files/L_assignments/lab-assignment-week9/cmake-build-debug/CMakeFiles/problem6.dir
+D:/IT files/L_assignments/lab-assignment-week9/cmake-build-debug/CMakeFiles/edit_cache.dir
+D:/IT files/L_assignments/lab-assignment-week9/cmake-build-debug/CMakeFiles/rebuild_cache.dir

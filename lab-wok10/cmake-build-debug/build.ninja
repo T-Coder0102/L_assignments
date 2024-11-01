@@ -403,6 +403,105 @@ build problem11.exe: CXX_EXECUTABLE_LINKER__problem11_Debug CMakeFiles/problem11
   TARGET_IMPLIB = libproblem11.dll.a
   TARGET_PDB = problem11.exe.dbg
 
+# =============================================================================
+# Object build statements for EXECUTABLE target problem01
+
+
+#############################################
+# Order-only phony target for problem01
+
+build cmake_object_order_depends_target_problem01: phony || .
+
+build CMakeFiles/problem01.dir/problem01.cpp.obj: CXX_COMPILER__problem01_unscanned_Debug D$:/IT$ files/L_assignments/lab-wok10/problem01.cpp || cmake_object_order_depends_target_problem01
+  DEP_FILE = CMakeFiles\problem01.dir\problem01.cpp.obj.d
+  FLAGS = -g -std=gnu++20 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\problem01.dir
+  OBJECT_FILE_DIR = CMakeFiles\problem01.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target problem01
+
+
+#############################################
+# Link the executable problem01.exe
+
+build problem01.exe: CXX_EXECUTABLE_LINKER__problem01_Debug CMakeFiles/problem01.dir/problem01.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\problem01.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = problem01.exe
+  TARGET_IMPLIB = libproblem01.dll.a
+  TARGET_PDB = problem01.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target problem02
+
+
+#############################################
+# Order-only phony target for problem02
+
+build cmake_object_order_depends_target_problem02: phony || .
+
+build CMakeFiles/problem02.dir/problem02.cpp.obj: CXX_COMPILER__problem02_unscanned_Debug D$:/IT$ files/L_assignments/lab-wok10/problem02.cpp || cmake_object_order_depends_target_problem02
+  DEP_FILE = CMakeFiles\problem02.dir\problem02.cpp.obj.d
+  FLAGS = -g -std=gnu++20 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\problem02.dir
+  OBJECT_FILE_DIR = CMakeFiles\problem02.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target problem02
+
+
+#############################################
+# Link the executable problem02.exe
+
+build problem02.exe: CXX_EXECUTABLE_LINKER__problem02_Debug CMakeFiles/problem02.dir/problem02.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\problem02.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = problem02.exe
+  TARGET_IMPLIB = libproblem02.dll.a
+  TARGET_PDB = problem02.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target problem03
+
+
+#############################################
+# Order-only phony target for problem03
+
+build cmake_object_order_depends_target_problem03: phony || .
+
+build CMakeFiles/problem03.dir/problem03.cpp.obj: CXX_COMPILER__problem03_unscanned_Debug D$:/IT$ files/L_assignments/lab-wok10/problem03.cpp || cmake_object_order_depends_target_problem03
+  DEP_FILE = CMakeFiles\problem03.dir\problem03.cpp.obj.d
+  FLAGS = -g -std=gnu++20 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\problem03.dir
+  OBJECT_FILE_DIR = CMakeFiles\problem03.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target problem03
+
+
+#############################################
+# Link the executable problem03.exe
+
+build problem03.exe: CXX_EXECUTABLE_LINKER__problem03_Debug CMakeFiles/problem03.dir/problem03.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\problem03.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = problem03.exe
+  TARGET_IMPLIB = libproblem03.dll.a
+  TARGET_PDB = problem03.exe.dbg
+
 
 #############################################
 # Utility command for edit_cache
@@ -430,6 +529,12 @@ build rebuild_cache: phony CMakeFiles/rebuild_cache.util
 # Target aliases.
 
 build lab_wok10: phony lab_wok10.exe
+
+build problem01: phony problem01.exe
+
+build problem02: phony problem02.exe
+
+build problem03: phony problem03.exe
 
 build problem10: phony problem10.exe
 
@@ -459,7 +564,7 @@ build problem9: phony problem9.exe
 #############################################
 # Folder: D:/IT files/L_assignments/lab-wok10/cmake-build-debug
 
-build all: phony lab_wok10.exe problem2.exe problem3.exe problem4.exe problem5.exe problem6.exe problem7.exe problem8.exe problem9.exe problem10.exe problem11.exe
+build all: phony lab_wok10.exe problem2.exe problem3.exe problem4.exe problem5.exe problem6.exe problem7.exe problem8.exe problem9.exe problem10.exe problem11.exe problem01.exe problem02.exe problem03.exe
 
 # =============================================================================
 # Built-in targets

@@ -1,28 +1,23 @@
-#include <iostream>
+#include <iostream>;
 #include <cstdlib>
-#include <ctime>
 using namespace std;
-int keyRand()
+
+int encoder(char c, int random)
 {
-    int min =10;
-    int max = 100;
-    int random_number = min+(rand()%(max-min+1));
-    return random_number;
-}
-void encoder(char c)
-{
-    const int key = keyRand();
-    int result= char(c)-(3*key*key)/10;
-    cout<<result<<endl;
+    int result = char(c)-3*random*random/10;
+    return result;
 }
 int main()
-
 {
+    int random =10 + (rand() % 91);
     char c;
-    for(int i=0; i<8;i++)
+    cout<<"Enter the characters: ";
+    for (int i=0;i<8;i++)
     {
         cin>>c;
-        encoder(c);
+        cout<<encoder(c,random);
     }
-    cout<<"The KEY is: "<<keyRand();
+    cout<<endl;
+    cout<<"KEY:"<<random<<"\n";
+    return 0;
 }
