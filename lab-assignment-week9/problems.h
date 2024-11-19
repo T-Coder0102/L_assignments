@@ -19,7 +19,7 @@ int ceilingFunction(B n)
     }
     return int(n);
 }
-// Problem 2
+// Problem 2x
 // swap_values
 template<typename A>
 void swap_values(A &a, A &b)
@@ -64,10 +64,11 @@ int decimalToBinary(int number)
 // Problem 6
 // midValue
 template<typename T>
-int midValue(T a, T b, T c)
+T midValue(T a, T b, T c)
 {
     if(a>b && b>c || c>b && b>a)
     {
+
         return b;
     }
     if(a>c && c>b || b>c && c>a)

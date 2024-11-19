@@ -1,0 +1,11 @@
+D:/IT files/L_assignments/lab-work12/cmake-build-debug/CMakeFiles/lab_work12.dir
+D:/IT files/L_assignments/lab-work12/cmake-build-debug/CMakeFiles/problem2.dir
+D:/IT files/L_assignments/lab-work12/cmake-build-debug/CMakeFiles/problem3.dir
+D:/IT files/L_assignments/lab-work12/cmake-build-debug/CMakeFiles/problem4.dir
+D:/IT files/L_assignments/lab-work12/cmake-build-debug/CMakeFiles/problem5.dir
+D:/IT files/L_assignments/lab-work12/cmake-build-debug/CMakeFiles/problem6.dir
+D:/IT files/L_assignments/lab-work12/cmake-build-debug/CMakeFiles/problem7.dir
+D:/IT files/L_assignments/lab-work12/cmake-build-debug/CMakeFiles/problem8.dir
+D:/IT files/L_assignments/lab-work12/cmake-build-debug/CMakeFiles/problem9.dir
+D:/IT files/L_assignments/lab-work12/cmake-build-debug/CMakeFiles/edit_cache.dir
+D:/IT files/L_assignments/lab-work12/cmake-build-debug/CMakeFiles/rebuild_cache.dir
